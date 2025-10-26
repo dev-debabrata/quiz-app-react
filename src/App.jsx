@@ -1,9 +1,15 @@
-import React from 'react'
+import Header from './components/Header.jsx';
+import Quiz from './components/Quiz.jsx';
 
-const App = () => {
+function App() {
   return (
-    <div>App</div>
-  )
+    <>
+      <Header />
+      <main>
+        <Quiz />
+      </main>
+    </>
+  );
 }
 
-export default App
+export default App;
